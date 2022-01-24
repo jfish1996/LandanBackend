@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_el_ements",
+  "info": {
+    "name": "Ui ElEMENT"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "COLOR": {
+      "type": "string"
+    },
+    "ELEMENT": {
+      "type": "string"
+    }
+  }
+}

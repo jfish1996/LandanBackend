@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ui-el-ements",
+      "handler": "ui-el-ement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ui-el-ements/count",
+      "handler": "ui-el-ement.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ui-el-ements/:id",
+      "handler": "ui-el-ement.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ui-el-ements",
+      "handler": "ui-el-ement.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ui-el-ements/:id",
+      "handler": "ui-el-ement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ui-el-ements/:id",
+      "handler": "ui-el-ement.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
